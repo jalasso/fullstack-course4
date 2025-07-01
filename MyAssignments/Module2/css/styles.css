@@ -2,34 +2,58 @@
 
 * {
     box-sizing: border-box;
+    margin: 10px;
+    /* margin-right: 25px;
+    margin-bottom: 25px;*/
 }
 
 h1 {
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 p {
     border: 1px solid black;
-    background-color: #A52A2A;
-    width: 90%;
-    height: 150px;
+    /*background-color: ;*/
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    text-align: center;
+    margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
-    color: white;
+    color: black;
+}
+
+.Chicken {
+    background-color: rgb(137, 142, 137);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+h2 {
+    margin-top: 55px;
+    margin-left: 5px;
+    font-family: Helvetica;
+    font-size: large;
+    text-align: justify;
 }
 
 
-/* Simple Responsive Framework. */
+/* Simple Responsive Framework NEW */
 
 .row {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 
 /********** Large devices only **********/
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .col-lg-1,
     .col-lg-2,
     .col-lg-3,
@@ -55,7 +79,7 @@ p {
         width: 25%;
     }
     .col-lg-4 {
-        width: 33.33%;
+        width: 31%;
     }
     .col-lg-5 {
         width: 41.66%;
@@ -86,7 +110,7 @@ p {
 
 /********** Medium devices only **********/
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-1,
     .col-md-2,
     .col-md-3,
@@ -136,6 +160,63 @@ p {
         width: 91.66%;
     }
     .col-md-12 {
+        width: 100%;
+    }
+}
+
+
+/********** Mobile devices only **********/
+
+@media (max-width: 767px) {
+    .col-sd-1,
+    .col-sd-2,
+    .col-sd-3,
+    .col-sd-4,
+    .col-sd-5,
+    .col-sd-6,
+    .col-sd-7,
+    .col-sd-8,
+    .col-sd-9,
+    .col-sd-10,
+    .col-sd-11,
+    .col-sd-12 {
+        float: left;
+        border: 1px solid green;
+    }
+    .col-sd-1 {
+        width: 8.33%;
+    }
+    .col-sd-2 {
+        width: 16.66%;
+    }
+    .col-sd-3 {
+        width: 25%;
+    }
+    .col-sd-4 {
+        width: 33.33%;
+    }
+    .col-sd-5 {
+        width: 41.66%;
+    }
+    .col-sd-6 {
+        width: 50%;
+    }
+    .col-sd-7 {
+        width: 58.33%;
+    }
+    .col-sd-8 {
+        width: 66.66%;
+    }
+    .col-sd-9 {
+        width: 74.99%;
+    }
+    .col-sd-10 {
+        width: 83.33%;
+    }
+    .col-sd-11 {
+        width: 91.66%;
+    }
+    .col-sd-12 {
         width: 100%;
     }
 }
