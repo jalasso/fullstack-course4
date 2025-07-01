@@ -12,45 +12,42 @@ h1 {
 }
 
 p {
-    border: 1px solid black;
+    border: 3px solid black;
     /*background-color: ;*/
     width: 20%;
     height: 50px;
     line-height: 50px;
     float: right;
     text-align: center;
-    margin-top: 0px;
-    margin-right: auto;
+    margin-top: -2px;
+    margin-right: -2px;
     margin-left: auto;
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
     color: black;
-   
 }
+
+
 
 .Chicken {
     background-color: rgb(213, 152, 152);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
 }
 
 .beef {
     background-color: rgb(193, 69, 67);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
 }
 
 .Sushi {
     background-color: rgb(229, 209, 152);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
 }
 
 h2 {
-    
+
     margin-top: 55px;
     margin-left: 5px;
-    font-family: Helvetica;
-    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -82,7 +79,7 @@ h2 {
     .col-lg-11,
     .col-lg-12 {
         float: left;
-        border: 1px solid green;
+        border: 3px solid black;
         background-color: rgb(153, 153, 153);
     }
     .col-lg-1 {
@@ -140,7 +137,7 @@ h2 {
     .col-md-11,
     .col-md-12 {
         float: left;
-        border: 1px solid green;
+        border: 3px solid black;
         background-color: rgb(153, 153, 153);
     }
     .col-md-1 {
@@ -198,7 +195,7 @@ h2 {
     .col-sd-11,
     .col-sd-12 {
         float: left;
-        border: 1px solid green;
+        border: 3px solid black;
         background-color: rgb(153, 153, 153);
     }
     .col-sd-1 {
