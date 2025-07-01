@@ -24,15 +24,29 @@ p {
     margin-left: auto;
     font-family: Helvetica;
     color: black;
+   
 }
 
 .Chicken {
-    background-color: rgb(137, 142, 137);
+    background-color: rgb(213, 152, 152);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.beef {
+    background-color: rgb(193, 69, 67);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.Sushi {
+    background-color: rgb(229, 209, 152);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
 }
 
 h2 {
+    
     margin-top: 55px;
     margin-left: 5px;
     font-family: Helvetica;
@@ -44,6 +58,7 @@ h2 {
 /* Simple Responsive Framework NEW */
 
 .row {
+    
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -68,6 +83,7 @@ h2 {
     .col-lg-12 {
         float: left;
         border: 1px solid green;
+        background-color: rgb(153, 153, 153);
     }
     .col-lg-1 {
         width: 8.33%;
@@ -125,6 +141,7 @@ h2 {
     .col-md-12 {
         float: left;
         border: 1px solid green;
+        background-color: rgb(153, 153, 153);
     }
     .col-md-1 {
         width: 8.33%;
@@ -182,6 +199,7 @@ h2 {
     .col-sd-12 {
         float: left;
         border: 1px solid green;
+        background-color: rgb(153, 153, 153);
     }
     .col-sd-1 {
         width: 8.33%;
