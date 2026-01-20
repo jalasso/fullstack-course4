@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "../MyAssignments/Module2"
+		},
+		{
+			"path": "../examples"
+		},
+		{
+			"path": "../assignments/assignment5"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "examples"
+    }
+}
